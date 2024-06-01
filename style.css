@@ -1,36 +1,53 @@
-/* CSS HEX */
-/* --licorice: #0e0004ff;
---dark-purple: #31081fff;
---rosewood: #6b0f1aff;
---alice-blue: #f4faffff; */
-
+/* --platinum: #dcdcddff;
+--french-gray: #c5c3c6ff;
+--outer-space: #46494cff;
+--paynes-gray: #4c5c68ff;
+--blue-munsell: #1985a1ff; */
+ /* steel blue: #3F88C5 */
+ /* orange #F75C03 */
 body{
     display: flex;
     justify-content: center;
+    background-color: #4c5c68ff;
+    
+
     
 }
 .main-container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 700px;
+    flex-direction: column;
+    flex-wrap: nowrap;
     height: 700px;
+    background-color:#294C60;
+    border-radius: 1rem;
 }
 .display{
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
-    width: 280px;
-    height: 280px;
+    width: 295px;
+    height: 120px;
+    background-color:#c5c3c6ff;
+    
+    border-radius: 15px;
+    
 }
 
-.screen{
-    background-color: #31081fff;;
-    height: 100vh;
-    width: fit-content;
+
+.calc-buttons{
+    
+    width: 300px;
+    
     
 }
 button{
-    padding: 1rem;
+    color: #F75C03;
+    width: 70px;
+    height: 70px;
+    background-color: #001B2E;
+    border-radius: 10px;
+    border-color: #001B2E;
+    font-size: x-large;
+    font-weight: bold;
     
 }
