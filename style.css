@@ -1,0 +1,36 @@
+/* CSS HEX */
+/* --licorice: #0e0004ff;
+--dark-purple: #31081fff;
+--rosewood: #6b0f1aff;
+--alice-blue: #f4faffff; */
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    width: 280px;
+    height: 280px;
+}
+
+.screen{
+    background-color: #31081fff;;
+    height: 100vh;
+    width: fit-content;
+    
+}
+button{
+    padding: 1rem;
+    
+}
