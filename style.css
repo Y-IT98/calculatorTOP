@@ -18,9 +18,13 @@ body{
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 700px;
+    height: 610px;
     background-color:#294C60;
     border-radius: 1rem;
+    border-style: solid;
+    border-width: 10px;
+    
+    
 }
 .display{
     display: flex;
@@ -28,8 +32,10 @@ body{
     width: 295px;
     height: 120px;
     background-color:#c5c3c6ff;
-    
+    border-style: solid;
     border-radius: 15px;
+    border-width: 5px;
+    font-weight: 600;
     
 }
 
@@ -40,14 +46,29 @@ body{
     
     
 }
+.signs{
+    display: flex;
+    flex-direction: column;
+}
 button{
     color: #F75C03;
     width: 70px;
     height: 70px;
     background-color: #001B2E;
     border-radius: 10px;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-color: #001B2E;
     font-size: x-large;
     font-weight: bold;
+    
+}
+.clear,.equals{
+    background-color: #FFF8F0;
+}
+
+.add,.subtract,.multiply,.divide{
+    background-color: #B1DDF1;
+    font-size:xx-large;
     
 }
